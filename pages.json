@@ -3,7 +3,8 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "XStory"
+				"navigationBarTitleText": "XStory",
+				"enablePullDownRefresh":true//开启下拉刷新
 			}
 		}
 	],
@@ -12,5 +13,22 @@
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
-	}
+	},
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#3cc51f",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	      "pagePath": "pages/index/index",
+	      "text": "tab1"
+	    }, {
+	      "pagePath": "pages/index/index",
+	      "text": "tab2"
+	    },
+		{
+		  "pagePath": "pages/index/index",
+		  "text": "tab3"
+		}]
+	  }
 }
